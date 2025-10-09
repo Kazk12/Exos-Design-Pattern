@@ -3,11 +3,10 @@
         "phpunit/phpunit": "^9.4"
     },
     "autoload": {
-    "psr-4": {
-        "App\\Builder\\Meal\\": "../1-Builder/3-Meal/",
-        "Tests\\": "../1-Builder/3-Meal/",
-        "Exceptions\\": "Exceptions/"
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/",
+            "Exceptions\\": "Exceptions/"
+        }
     }
-}
-
 }
