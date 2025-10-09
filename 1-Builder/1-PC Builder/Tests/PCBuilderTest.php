@@ -14,7 +14,7 @@ use App\Builder\Hardware\MotherBoard;
 use App\Builder\Interfaces\MasterInterface;
 use App\Builder\Interfaces\ComputerInterface;
 
-use Tests\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class PCBuilderTest extends TestCase
 {
