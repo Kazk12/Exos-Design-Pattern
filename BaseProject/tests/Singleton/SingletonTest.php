@@ -2,7 +2,7 @@
 
 namespace Tests\Creational;
 
-use Patterns\Creational\Singleton;
+use App\Singleton\ExosSingleton\Singleton;
 use PHPUnit\Framework\TestCase;
 
 final class SingletonTest extends TestCase 
