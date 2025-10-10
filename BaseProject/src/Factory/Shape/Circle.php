@@ -1,10 +1,10 @@
 <?php 
 
-namespace App\Factory\Shapes;
+namespace App\Factory\Shape;
 
-use App\Factory\Interfaces\ShapeInterface;
+use App\Factory\Shape\Interfaces\ShapeInterface;
 
-class Circle implements ShapeInterface 
+class Circle implements ShapeInterface
 {
 	public function draw(){
 		$img = imagecreatetruecolor(400, 400);
